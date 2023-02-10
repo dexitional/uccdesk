@@ -6,7 +6,18 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        indie: ["'Indie Flower'","cursive"],
+      }
+    },
   },
-  plugins: [],
+
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar-hide')
+  ],
+  corePlugins: {
+    fontFamily: true,
+  },
 }
