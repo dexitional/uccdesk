@@ -16,8 +16,13 @@ function Header() {
             </div>
             <div className="text-3xl text-slate-500/60 font-indie font-semibold">Helpdesk</div>
         </div>
-        <div className="flex-1 h-full flex items-center justify-end bg-slate-50 rounded">
-           <div></div>
+        <div className="px-6 flex-1 h-full flex items-center space-x-10 justify-end bg-slate-50 rounded">
+           <div className="flex space-x-8 font-semibold text-gray-600">
+               <span>Home</span>
+               <span>Tutorials</span>
+               <span>Frequently Asked Questions (FAQ)</span>
+               <span>Support</span>
+           </div>
            <div className="flex space-x-2">
               {/* Search box */}
               <div className="px-3 py-2 w-96 flex items-center space-x-3 rounded bg-slate-200/70 border border-slate-500/80">
@@ -25,7 +30,7 @@ function Header() {
                  <span className="text-sm">Search FAQs</span>
               </div>
               {/* Login box */}
-              <button className="px-4 py-2 rounded bg-blue-600 text-white font-semibold">Sign Up</button>
+              <button className="px-5 py-2 rounded bg-blue-600 text-white font-semibold">Open a Ticket</button>
            </div>
         </div>
     </div>
