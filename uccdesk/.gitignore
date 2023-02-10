@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/sanity.cli.ts
+/sanity.config.ts
 
 # Compiled Sanity Studio
 /dist
