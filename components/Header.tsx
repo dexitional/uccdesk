@@ -20,8 +20,8 @@ function Header() {
            <div></div>
            <div className="flex space-x-2">
               {/* Search box */}
-              <div className="px-4 py-2 flex space-x-2 rounded border border-slate-400">
-                 <MdOutlineSearch className="h-6 w-6 "/>
+              <div className="px-4 py-2 w-96 flex space-x-2 rounded bg-gray-100 border border-slate-500/80">
+                 <MdOutlineSearch className="h-5 w-5 text-slate-500/80"/>
                  <span>Search FAQs</span>
               </div>
               {/* Login box */}
