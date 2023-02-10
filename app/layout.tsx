@@ -11,7 +11,13 @@ export default function RootLayout({
       <head />
       <body>
         <Header />
-        {children}
+        <div className="h-56 w-full bg-slate-200"></div>
+        <div className="flex">
+          <div className="w-1/4 h-screen bg-green-100">Chat Box</div>
+          <div className="flex-1">
+             {children}
+          </div>
+        </div>
       </body>
     </html>
   )
