@@ -7,6 +7,7 @@
 
 /uccdesk/node_modules
 /uccdesk/sanity.cli.ts
+/uccdesk/sanity.config.ts
 # testing
 /coverage
 

@@ -18,12 +18,12 @@ function Header() {
             <div className="text-3xl text-slate-500/60 font-indie font-semibold">Helpdesk</div>
         </div>
         <div className="px-6 flex-1 h-full flex items-center space-x-10 justify-end bg-slate-50/50 rounded">
-           <div className="flex space-x-8 font-semibold text-gray-500">
+           <div className="flex items-center space-x-8 font-semibold text-gray-500">
                <Link href="">Home</Link>
                <Link href="/tutorials" className="cursor-pointer">Tutorials</Link>
                <Link href="/faq" className="cursor-pointer">FAQs</Link>
                <Link href="/blog" className="cursor-pointer">Blog</Link>
-               <Link href="/ticket/status" className="cursor-pointer">Check Ticket Status</Link>
+               <Link href="/ticket/status" className="px-3 py-2 cursor-pointer rounded border border-[#273775]">Check Ticket Status</Link>
            </div>
            <div className="flex space-x-2">
               {/* Search box */}
