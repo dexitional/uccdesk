@@ -6,6 +6,7 @@
 .pnp.js
 
 /uccdesk/node_modules
+/uccdesk/sanity.cli.ts
 # testing
 /coverage
 
