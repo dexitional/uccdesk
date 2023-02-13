@@ -1,5 +1,6 @@
 import "../styles/globals.css"
 import Header from "../components/Header"
+import Sidebar from "../components/Sidebar"
 
 export default function RootLayout({
   children,
@@ -11,9 +12,8 @@ export default function RootLayout({
       <head />
       <body>
         <Header />
-        <div className="h-56 w-full bg-slate-200"></div>
         <div className="flex">
-          <div className="w-1/4 h-screen bg-green-100">Chat Box</div>
+          <Sidebar />
           <div className="flex-1">
              {children}
           </div>

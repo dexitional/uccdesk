@@ -21,18 +21,18 @@ function Header() {
            <div className="flex items-center space-x-8 font-semibold text-gray-500">
                <Link href="">Home</Link>
                <Link href="/tutorials" className="cursor-pointer">Tutorials</Link>
-               <Link href="/faq" className="cursor-pointer">FAQs</Link>
+               <Link href="/faqs" className="cursor-pointer">FAQs</Link>
                <Link href="/blog" className="cursor-pointer">Blog</Link>
                <Link href="/ticket/status" className="px-3 py-2 cursor-pointer rounded border border-[#273775]">Check Ticket Status</Link>
            </div>
            <div className="flex space-x-2">
-              {/* Search box */}
-              <div className="px-3 py-2 w-96 flex items-center space-x-3 rounded bg-slate-200/70 border border-slate-500/80">
-                 <MdOutlineSearch className="h-5 w-5 "/>
-                 <span className="text-sm">Search FAQ and Content ...</span>
-              </div>
               {/* Login box */}
               <Link href="/ticket/apply" className="px-5 py-2 rounded bg-[#273775] text-yellow-300 font-medium">Open a New Ticket</Link>
+              {/* Search box */}
+              <div className="px-3 py-2 w-64 flex items-center space-x-3 rounded bg-slate-200/70 border border-slate-500/80">
+                    <MdOutlineSearch className="h-5 w-5 "/>
+                    <span className="text-sm">Search FAQ and support articles</span>
+              </div>
            </div>
         </div>
     </div>
