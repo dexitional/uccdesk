@@ -22,7 +22,7 @@ function Page() {
              <div className="flex flex-col space-y-0.5">
                <span className="text-yellow-500 text-xs font-bold">QUESTION</span>
                 <h1 className="text-md font-medium text-[#273775]">Student Portal</h1>
-                <div className="text-gray-800 font-xs italic hidden">How to Reset Student Portal Password</div>
+                <div className="text-gray-800 font-xs italic">How to Reset Student Portal Password</div>
              </div>
           </div>
           
