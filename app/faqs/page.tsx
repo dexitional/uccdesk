@@ -19,9 +19,10 @@ function Page() {
        <div className="flex flex-col space-y-2">
           <div className="p-4 flex space-x-3 bg-white border border-slate-200 rounded-lg shadow-lg shadow-[#273775]/10">
              <FcQuestions className="h-7 w-7" />
-             <div className="flex flex-col">
+             <div className="flex flex-col space-y-0.5">
+               <span className="text-yellow-500 text-xs font-bold">QUESTION</span>
                 <h1 className="text-md font-medium text-[#273775]">Student Portal</h1>
-                <div className="text-gray-800 font-xs italic">How to Reset Student Portal Password</div>
+                <div className="text-gray-800 font-xs italic hidden">How to Reset Student Portal Password</div>
              </div>
           </div>
           

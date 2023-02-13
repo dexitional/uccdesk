@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 
+/uccdesk
 /uccdesk/node_modules
 /uccdesk/sanity.*
 /uccdesk/sanity.cli.ts
